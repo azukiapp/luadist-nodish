@@ -1,0 +1,15 @@
+name = "nodish"
+version = "0.1"
+
+desc = "A Lightweight Lua equivalent to Node.js"
+author = "Gerhard Preuss"
+license = "MIT/X11"
+url = "https://github.com/lipp/nodish"
+maintainer = "Everton A Ribeiro"
+repository = "https://github.com/lipp/nodish"
+checkout = "master"
+
+depends = {
+  "lua >= 5.1",
+  "ljsyscall >= 0.9"
+}
